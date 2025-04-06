@@ -8,12 +8,15 @@ public class O2Bar : MonoBehaviour
     private float HP = 100f;
     public Image Bar;
 
-    private void OnCollisionStay2D(Collision2D collision)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.gameObject.tag == "Enemy")
+        if (collision.gameObject.CompareTag("Enemy"))
         {
-            HP -= 5;
-            Bar.fillAmount = HP / 100;
+            if (transform.position.y > collision.transform.position.y)
+            {
+                HP -= 5;
+                Bar.fillAmount = HP / 100;
+            }
         }
     }
 }
