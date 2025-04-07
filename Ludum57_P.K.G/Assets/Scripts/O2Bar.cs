@@ -6,8 +6,8 @@ using System.Collections.Generic;
 public class O2Bar : MonoBehaviour
 {
     private float HP = 100f;
-    public float damageAmount = 10f;
-    public float damageHeal = 10f;
+    public float damageAmount;
+    public float damageHeal;
     private float timer = 0f;
     public float interval = 1f;
     public Image Bar;
@@ -28,10 +28,12 @@ public class O2Bar : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        Debug.Log("Проверка");
         if (collision.gameObject.tag == "Ballon")
         {
-            HP += damageHeal;
-            Bar.fillAmount = HP / 100;
+            
+           HP += damageHeal;
+           Bar.fillAmount = HP / 100;
 
         }
     }
