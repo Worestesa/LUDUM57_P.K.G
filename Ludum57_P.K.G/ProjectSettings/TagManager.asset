@@ -8,6 +8,7 @@ TagManager:
   - Ballon
   - Spor
   - Plaen
+  - End
   layers:
   - Default
   - TransparentFX
