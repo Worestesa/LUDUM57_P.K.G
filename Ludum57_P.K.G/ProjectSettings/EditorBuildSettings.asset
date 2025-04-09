@@ -14,27 +14,27 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level-1_NodelaGnom.unity
     guid: 6099a13b4e74b3941ae4434e9dab025d
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Level-1_Final.unity
-    guid: 07806b10204cde14a856649a2d746d65
+    guid: 11967ceef5ef33641b1bcdbc33d7b205
   - enabled: 0
     path: Assets/Scenes/Level-2_NovelaMainer.unity
     guid: 6a16816b30b461b4a9706a27b2a35f3e
   - enabled: 1
     path: Assets/Scenes/Level-2_Minigame.unity
     guid: fe301dee43fada3419622177bb36b310
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Level-2_Final.unity
-    guid: ed7e32cb185249a498ece95b74d4e7b4
+    guid: fda4cc27f597f0d4bb4cd3e5695e656d
   - enabled: 0
     path: Assets/Scenes/Level-3_NovelaCosmos.unity
     guid: 6b869f9aa6231c3468f8633a127ac709
   - enabled: 1
     path: Assets/Scenes/Level-3_Minigame.unity
     guid: 5c81709f042eb2443842c35013502b9c
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Level-3_Final.unity
-    guid: 2929241cc9a5346468ea0615c12f326a
+    guid: a6ae14bc1c02b77498862f3d7d58d5a2
   - enabled: 1
     path: Assets/Scenes/TeamMenu.unity
     guid: c9040e0f91b54934584c6d52ada90ffb
@@ -50,6 +50,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/DeadMenuKosmos.unity
     guid: 616524d9b2005be44bbe60168835894c
+  - enabled: 1
+    path: Assets/Scenes/DeadMenuGnom.unity
+    guid: 80fdd16d7dd36be4e942ef3dafb03730
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
