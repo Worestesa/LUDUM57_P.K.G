@@ -12,27 +12,27 @@ EditorBuildSettings:
     path: Assets/Scenes/Level-1_Minigame.unity
     guid: d24b558a72d333143bd630600ad51276
   - enabled: 1
-    path: Assets/Scenes/Level-1_NodelaDaiver.unity
+    path: Assets/Scenes/Level-1_NodelaGnom.unity
     guid: 6099a13b4e74b3941ae4434e9dab025d
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Level-1_Final.unity
     guid: 07806b10204cde14a856649a2d746d65
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Level-2_NovelaMainer.unity
     guid: 6a16816b30b461b4a9706a27b2a35f3e
   - enabled: 1
     path: Assets/Scenes/Level-2_Minigame.unity
     guid: fe301dee43fada3419622177bb36b310
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Level-2_Final.unity
     guid: ed7e32cb185249a498ece95b74d4e7b4
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Level-3_NovelaCosmos.unity
     guid: 6b869f9aa6231c3468f8633a127ac709
   - enabled: 1
     path: Assets/Scenes/Level-3_Minigame.unity
     guid: 5c81709f042eb2443842c35013502b9c
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Level-3_Final.unity
     guid: 2929241cc9a5346468ea0615c12f326a
   - enabled: 1
@@ -41,6 +41,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/DeadMenu.unity
     guid: 711af1b9c3d32154f8f8fddfdd2f0e49
+  - enabled: 1
+    path: Assets/Scenes/Level-2_NodelaDfiver.unity
+    guid: 1b3f0d86b04acc744898cf0bd93a5fd3
+  - enabled: 1
+    path: Assets/Scenes/Level-3_NodelaKosmos.unity
+    guid: b7b2636bca923224b9640f3ec8d8595c
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
