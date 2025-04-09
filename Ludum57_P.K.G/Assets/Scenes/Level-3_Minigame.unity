@@ -4829,6 +4829,7 @@ MonoBehaviour:
   damageAmount: 5
   damageHeal: 0
   interval: 5
+  sceneNumber: 0
   Bar: {fileID: 842064988}
 --- !u!114 &941137160
 MonoBehaviour:
@@ -4858,6 +4859,7 @@ MonoBehaviour:
   damageAmount: 10
   damageHeal: 20
   interval: 1
+  sceneNumber: 12
   Bar: {fileID: 430240114}
 --- !u!1 &961909302
 GameObject:

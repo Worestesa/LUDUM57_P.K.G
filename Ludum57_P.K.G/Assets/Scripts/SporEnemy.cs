@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 
 public class SporEnemy : MonoBehaviour
 {
@@ -11,6 +12,8 @@ public class SporEnemy : MonoBehaviour
     private float timer = 0f;
     public float intervalDamage = 1f;
     public float intervalHeal = 2f;
+    public int sceneNumber;
+
 
     public Image Bar;
     private void OnTriggerStay2D(Collider2D collision)
@@ -23,9 +26,9 @@ public class SporEnemy : MonoBehaviour
                 HP -= damageAmount;
                 timer = 0f;
                 Bar.fillAmount = HP / 100;
-                if (HP < 0)
+                if (HP <= 0)
                 {
-                    HP = 0;
+                    SceneManager.LoadScene(sceneNumber);
                 }
             }
 

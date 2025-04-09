@@ -2,6 +2,8 @@ using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
+
 
 public class O2Bar : MonoBehaviour
 {
@@ -10,6 +12,7 @@ public class O2Bar : MonoBehaviour
     public float damageHeal;
     private float timer = 0f;
     public float interval = 1f;
+    public int sceneNumber;
     public Image Bar;
 
     private void Update()
@@ -23,7 +26,7 @@ public class O2Bar : MonoBehaviour
         }
         if(HP <= 0f )
         {
-            Debug.Log("Вы проиграли!");
+            SceneManager.LoadScene(sceneNumber);
         }
     }
     private void OnTriggerEnter2D(Collider2D collision)

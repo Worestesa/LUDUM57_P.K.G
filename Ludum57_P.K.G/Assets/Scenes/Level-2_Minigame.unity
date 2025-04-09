@@ -4025,6 +4025,10 @@ PrefabInstance:
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4137844269745435042, guid: d9dc86700ae6f254088178f7d36b2e36, type: 3}
+      propertyPath: sceneNumber
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 4137844269745435042, guid: d9dc86700ae6f254088178f7d36b2e36, type: 3}
       propertyPath: damageAmount
       value: 20
       objectReference: {fileID: 0}

@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 
 public class InvetkaKosmos : MonoBehaviour
 {
@@ -10,6 +11,7 @@ public class InvetkaKosmos : MonoBehaviour
     public float damageHeal;
     private float timer = 0f;
     public float interval = 1f;
+    public int sceneNumber;
     public Image Bar;
     private void Update()
     {
@@ -22,7 +24,7 @@ public class InvetkaKosmos : MonoBehaviour
         }
         if (HP <= 0f)
         {
-            Debug.Log("Вы проиграли!");
+            SceneManager.LoadScene(sceneNumber);
         }
         Color colorInvetka = Bar.color;
         colorInvetka.a = 1 - HP / 100;
