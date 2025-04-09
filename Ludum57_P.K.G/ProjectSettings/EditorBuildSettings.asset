@@ -24,7 +24,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Level-2_Minigame.unity
     guid: fe301dee43fada3419622177bb36b310
   - enabled: 1
-    path: Assets/Scenes/Level-2_Final.unity
+    path: Assets/Scenes/Level-2_NovelaDaiver.unity
     guid: fda4cc27f597f0d4bb4cd3e5695e656d
   - enabled: 0
     path: Assets/Scenes/Level-3_NovelaCosmos.unity
@@ -42,7 +42,7 @@ EditorBuildSettings:
     path: Assets/Scenes/DeadMenuDaiver.unity
     guid: 711af1b9c3d32154f8f8fddfdd2f0e49
   - enabled: 1
-    path: Assets/Scenes/Level-2_NodelaDfiver.unity
+    path: Assets/Scenes/Level-2_Final.unity
     guid: 1b3f0d86b04acc744898cf0bd93a5fd3
   - enabled: 1
     path: Assets/Scenes/Level-3_NodelaKosmos.unity
