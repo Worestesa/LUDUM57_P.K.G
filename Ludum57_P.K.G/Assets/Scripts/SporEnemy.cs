@@ -12,7 +12,6 @@ public class SporEnemy : MonoBehaviour
     private float timer = 0f;
     public float intervalDamage = 1f;
     public float intervalHeal = 2f;
-    public int sceneNumber;
 
 
     public Image Bar;
@@ -28,7 +27,7 @@ public class SporEnemy : MonoBehaviour
                 Bar.fillAmount = HP / 100;
                 if (HP <= 0)
                 {
-                    SceneManager.LoadScene(sceneNumber);
+                    SceneManager.LoadScene("DeadMenuGnom");
                 }
             }
 

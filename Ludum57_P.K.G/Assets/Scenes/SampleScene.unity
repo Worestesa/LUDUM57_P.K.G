@@ -785,7 +785,7 @@ GameObject:
   - component: {fileID: 1167620297}
   - component: {fileID: 1167620296}
   - component: {fileID: 1167620295}
-  - component: {fileID: 1167620294}
+  - component: {fileID: 1167620298}
   m_Layer: 5
   m_Name: Playe
   m_TagString: Untagged
@@ -813,19 +813,6 @@ RectTransform:
   m_AnchoredPosition: {x: 222.90277, y: 288.52353}
   m_SizeDelta: {x: 278.8557, y: 191.4356}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1167620294
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1167620292}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1fe2d2e65f984a949a3acd6f338ce385, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sceneNumber: 2
 --- !u!114 &1167620295
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -870,7 +857,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1167620294}
+      - m_Target: {fileID: 1167620298}
         m_TargetAssemblyTypeName: ButtenMenu, Assembly-CSharp
         m_MethodName: Transition
         m_Mode: 1
@@ -920,6 +907,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1167620292}
   m_CullTransparentMesh: 1
+--- !u!114 &1167620298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1167620292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fe2d2e65f984a949a3acd6f338ce385, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneNumber: 1
 --- !u!1 &1325778292
 GameObject:
   m_ObjectHideFlags: 0

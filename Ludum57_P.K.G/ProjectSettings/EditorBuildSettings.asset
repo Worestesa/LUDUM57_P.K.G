@@ -9,50 +9,50 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
-    path: Assets/Scenes/Level-1_Minigame.unity
-    guid: d24b558a72d333143bd630600ad51276
-  - enabled: 1
-    path: Assets/Scenes/Level-1_NodelaGnom.unity
+    path: Assets/Scenes/Gnom/Level-1_NodelaGnom.unity
     guid: 6099a13b4e74b3941ae4434e9dab025d
   - enabled: 1
-    path: Assets/Scenes/Level-1_Final.unity
-    guid: 11967ceef5ef33641b1bcdbc33d7b205
-  - enabled: 0
-    path: Assets/Scenes/Level-2_NovelaMainer.unity
-    guid: 6a16816b30b461b4a9706a27b2a35f3e
-  - enabled: 1
-    path: Assets/Scenes/Level-2_Minigame.unity
+    path: Assets/Scenes/Gnom/Level-2_Minigame.unity
     guid: fe301dee43fada3419622177bb36b310
   - enabled: 1
-    path: Assets/Scenes/Level-2_NovelaDaiver.unity
-    guid: fda4cc27f597f0d4bb4cd3e5695e656d
-  - enabled: 0
-    path: Assets/Scenes/Level-3_NovelaCosmos.unity
-    guid: 6b869f9aa6231c3468f8633a127ac709
+    path: Assets/Scenes/Gnom/Level-1_Final.unity
+    guid: 11967ceef5ef33641b1bcdbc33d7b205
   - enabled: 1
-    path: Assets/Scenes/Level-3_Minigame.unity
+    path: Assets/Scenes/Gnom/DeadMenuGnom.unity
+    guid: 80fdd16d7dd36be4e942ef3dafb03730
+  - enabled: 1
+    path: Assets/Scenes/Daiver/Level-2_NovelaDaiver.unity
+    guid: fda4cc27f597f0d4bb4cd3e5695e656d
+  - enabled: 1
+    path: Assets/Scenes/Daiver/Level-1_Minigame.unity
+    guid: d24b558a72d333143bd630600ad51276
+  - enabled: 1
+    path: Assets/Scenes/Daiver/Level-2_Final.unity
+    guid: 1b3f0d86b04acc744898cf0bd93a5fd3
+  - enabled: 1
+    path: Assets/Scenes/Daiver/DeadMenuDaiver.unity
+    guid: 711af1b9c3d32154f8f8fddfdd2f0e49
+  - enabled: 1
+    path: Assets/Scenes/Kosmos/Level-3_NodelaKosmos.unity
+    guid: b7b2636bca923224b9640f3ec8d8595c
+  - enabled: 1
+    path: Assets/Scenes/Kosmos/Level-3_Minigame.unity
     guid: 5c81709f042eb2443842c35013502b9c
   - enabled: 1
-    path: Assets/Scenes/Level-3_Final.unity
+    path: Assets/Scenes/Kosmos/Level-3_Final.unity
     guid: a6ae14bc1c02b77498862f3d7d58d5a2
+  - enabled: 1
+    path: Assets/Scenes/Kosmos/DeadMenuKosmos.unity
+    guid: 616524d9b2005be44bbe60168835894c
   - enabled: 1
     path: Assets/Scenes/TeamMenu.unity
     guid: c9040e0f91b54934584c6d52ada90ffb
-  - enabled: 1
-    path: Assets/Scenes/DeadMenuDaiver.unity
-    guid: 711af1b9c3d32154f8f8fddfdd2f0e49
-  - enabled: 1
-    path: Assets/Scenes/Level-2_Final.unity
-    guid: 1b3f0d86b04acc744898cf0bd93a5fd3
-  - enabled: 1
-    path: Assets/Scenes/Level-3_NodelaKosmos.unity
-    guid: b7b2636bca923224b9640f3ec8d8595c
-  - enabled: 1
-    path: Assets/Scenes/DeadMenuKosmos.unity
-    guid: 616524d9b2005be44bbe60168835894c
-  - enabled: 1
-    path: Assets/Scenes/DeadMenuGnom.unity
-    guid: 80fdd16d7dd36be4e942ef3dafb03730
+  - enabled: 0
+    path: Assets/Scenes/Level-2_NovelaMainer.unity
+    guid: 6a16816b30b461b4a9706a27b2a35f3e
+  - enabled: 0
+    path: Assets/Scenes/Level-3_NovelaCosmos.unity
+    guid: 6b869f9aa6231c3468f8633a127ac709
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
